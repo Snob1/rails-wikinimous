@@ -1,0 +1,5 @@
+<h2>Author: <%= @article.title %></h2>
+<p>Tweet: <%= @article.content %></p>
+<%= link_to "back", articles_path %>
+<%= link_to "edit", edit_article_path %>
+<%= link_to "delete", article_path, method: :delete %>
